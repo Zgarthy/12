@@ -59,7 +59,7 @@ GameManager.prototype.addStartTiles = function () {
 // Adds a tile in a random position
 GameManager.prototype.addRandomTile = function () {
   if (this.grid.cellsAvailable()) {
-    var value =  Math.random() < 0.99999999 ? Math.random() < 0.99999998 ? Math.random() < 0.99998 ? Math.random() < 0.9998 ? Math.random() < 0.999 ? 1 : 2 : Math.random() < 0.9 ? 3 : 4 : Math.random() < 0.99 ? Math.random() < 0.95 ? 5 : 6 : Math.random() < 0.875 ? 7 : 8 : 9 : 10;
+    var value =  Math.random() < 0.999999995 ? Math.random() < 0.99999999 ? Math.random() < 0.99998 ? Math.random() < 0.9998 ? Math.random() < 0.999 ? 1 : 2 : Math.random() < 0.9 ? 3 : 4 : Math.random() < 0.99 ? Math.random() < 0.95 ? 5 : 6 : Math.random() < 0.875 ? 7 : 8 : 9 : 10;
     var tile = new Tile(this.grid.randomAvailableCell(), value);
 
     this.grid.insertTile(tile);
@@ -137,7 +137,7 @@ GameManager.prototype.move = function (direction) {
           tile.updatePosition(positions.next);
 
           // Update the score
-          self.score += merged.value;
+          self.score += 1;
 
           // The mighty 8 tile
           if (merged.value === 8) self.won = true;
