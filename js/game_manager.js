@@ -141,6 +141,7 @@ GameManager.prototype.move = function (direction) {
 
           // The mighty 8 tile
           if (merged.value === 8) self.won = true;
+          if (merged.value === 10) this.over = true;
         } else {
           self.moveTile(tile, positions.farthest);
         }
