@@ -543,6 +543,7 @@ hr {
   .tile.tile-10 .tile-inner {
     color: #fff300;
     background: #0055ff;
+    border-radius: 0px;
     font-weight: lighter;
     font-size: 36px; }
   .tile.tile-256 .tile-inner {
