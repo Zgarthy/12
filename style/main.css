@@ -546,6 +546,13 @@ hr {
     border-radius: 0px;
     font-weight: lighter;
     font-size: 36px; }
+  .tile.tile-11 .tile-inner {
+    color: #000303;
+    background: #47fff9;
+    border-radius: 0px;
+    font-weight: bold;
+    font-family: fantasy;
+    font-size: 36px; }
   .tile.tile-256 .tile-inner {
     color: #f9f6f2;
     background: #edcc61;
