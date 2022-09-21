@@ -2,8 +2,8 @@
 html, body {
   margin: 0;
   padding: 0;
-  background: #fffdde;
-  color: #1c1c1c;
+  background: #daecff;
+  color: #2e2e2e;
   font-family: "Clear Sans", "Helvetica Neue", Arial, sans-serif;
   font-size: 18px; }
 
@@ -514,46 +514,55 @@ hr {
     background: #ede0c8;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
   .tile.tile-1 .tile-inner {
-    color: #f9f6f2;
-    background: #e0c30d; }
+    color: #ffffff;
+    background: #7cbcf9; }
   .tile.tile-2 .tile-inner {
-    color: #f9f6f2;
-    background: #95b0e5; }
+    color: #ffffff;
+    background: #7cf9b3; }
   .tile.tile-3 .tile-inner {
-    color: #f9f6f2;
-    background: #b5a8a8; }
+    color: #ffffff;
+    background: #bef97c; }
   .tile.tile-4 .tile-inner {
-    color: #f9f6f2;
-    background: #857e7e; }
+    color: #ffffff;
+    background: #f9c27c; }
   .tile.tile-5 .tile-inner {
-    color: #f9f6f2;
-    background: #23870b; }
+    color: #ffffff;
+    background: #f97c8b; }
   .tile.tile-6 .tile-inner {
-    color: #f9f6f2;
-    background: #ee1313; }
+    color: #ffffff;
+    background: #e27cf9; }
   .tile.tile-7 .tile-inner {
-    color: #f9f6f2;
-    background: #202ac4; }
+    color: #ffffff;
+    background: #857cf9; }
   .tile.tile-8 .tile-inner {
-    color: #000000;
-    background: #efeeee; }
+    color: #ffffff;
+    background: #cdcdcd; }
   .tile.tile-9 .tile-inner {
-    color: #f9f6f2;
-    background: #e982f1; }
+    color: #ffffff;
+    background: #269c00; }
   .tile.tile-10 .tile-inner {
-    color: #fff300;
-    background: #0055ff;
-    border-radius: 0px;
-    font-weight: lighter;
-    font-size: 36px; }
+    color: #ffffff;
+    background: #009c90; }
   .tile.tile-11 .tile-inner {
+    color: #ffffff;
+    background: #eef5f5; }
+  .tile.tile-12 .tile-inner {
+    color: #ffffff;
+    background: #000000; }
+  .tile.tile-13 .tile-inner {
+    color: #3a0057;
+    background: #ff3e3e;
+    border-radius: 4px;
+    font-weight: cursive;
+    font-size: 30px; }
+  .tile.tile-71 .tile-inner {
     color: #000303;
     background: #47fff9;
     border-radius: 0px;
     font-weight: bold;
     font-family: fantasy;
     font-size: 36px; }
-  .tile.tile-12 .tile-inner {
+  .tile.tile-72 .tile-inner {
     color: #f9c16c;
     background: #ff0080;
     border-radius: 0px;
