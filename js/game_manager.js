@@ -59,7 +59,7 @@ GameManager.prototype.addStartTiles = function () {
 // Adds a tile in a random position
 GameManager.prototype.addRandomTile = function () {
   if (this.grid.cellsAvailable()) {
-    var value = Math.random() < 0.99999999 ? Math.random() < 0.9999999 ? Math.random() < 0.999999 ? Math.random() < 0.999998 ? Math.random() < 0.999996 ? Math.random() < 0.99999 ? Math.random() < 0.99998 ? Math.random() < 0.99996 ? Math.random() < 0.9999 ? Math.random() < 0.9996 ? Math.random() < 0.998 ? 1 : 2 : 3 : 4 : 5 : 6 : 7 : 8 : 9 : 10 : 11 : 12;
+    var value = Math.random() < 0.999999999 ? Math.random() < 0.99999999875 ? Math.random() < 0.9999999975 ? Math.random() < 0.999999995 ? Math.random() < 0.99999999 ? Math.random() < 0.99999998 ? Math.random() < 0.999999975 ? Math.random() < 0.99999991666666666666666666 ? Math.random() < 0.9999999 ? Math.random() < 0.999999888888888888888888 ? Math.random() < 0.999999875 ? Math.random() < 0.999999857142857142857142 ? Math.random() < 0.9999998333333333333333333 ? Math.random() < 0.9999998 ? Math.random() < 0.99999975 ? Math.random() < 0.999999666666666666666666666 ? Math.random() < 0.9999996 ? Math.random() < 0.9999995 ? Math.random() < 0.999999333333333333333333 ? Math.random() < 0.999999000002999991000026 ? Math.random() < 0.999999 ? Math.random() < 0.99999888888888888888888 ? Math.random() < 0.99999875 ? Math.random() < 0.999998666666666666666666 ? Math.random() < 0.9999984375 ? Math.random() < 0.999998 ? Math.random() < 0.9999975 ? Math.random() < 0.999996 ? Math.random() < 0.999995 ? Math.random() < 0.99999 ? Math.random() < 0.9999875 ? Math.random() < 0.99998 ? Math.random() < 0.99996 ? Math.random() < 0.9999333333333333333333 ? Math.random() < 0.9999 ? Math.random() < 0.999875 ? Math.random() < 0.9995 ? Math.random() < 0.998333333333333333333 ? Math.random() < 0.00000005 ? "0" : 1 : 2 : 3 : 4 : Math.random() < 0.5 ? "❔" : "❕" : 5 : 6 : 7 : "⍁" : 8 : 9 : 10 : 11 : 12 : 13 : 14 : 15 : 16 : 17 : 18 : 19 : 20 : 21 : 22 : 23 : 24 : 25 : 26 : 27 : 28 : 29 : 30 : 31 : 32 : 33 : 34 : 35 : 36 : "✈";
     var tile = new Tile(this.grid.randomAvailableCell(), value);
 
     this.grid.insertTile(tile);
@@ -127,7 +127,7 @@ GameManager.prototype.move = function (direction) {
 
         // Only one merger per row traversal?
         if (next && next.value === tile.value && !next.mergedFrom) { 
-          var merged = new Tile(positions.next, tile.value + 0);
+          var merged = new Tile(positions.next, tile.value * 1);
           merged.mergedFrom = [tile, next];
 
           self.grid.insertTile(merged);
@@ -140,8 +140,8 @@ GameManager.prototype.move = function (direction) {
           self.score += 1;
 
           // The mighty 12 tile
-          if (merged.value === 12) self.won = true;
-          if (merged.value === 13) self.over = true;
+          if (merged.value === 36) self.won = true;
+          if (merged.value === 37) self.over = true;
         } else {
           self.moveTile(tile, positions.farthest);
         }
