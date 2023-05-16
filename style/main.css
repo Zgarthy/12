@@ -502,7 +502,8 @@ hr {
   transition-property: transform; }
   .tile .tile-inner {
     border-radius: 3px;
-    background: #eee4da;
+    color: #51008d;
+    background: #88fef9;
     text-align: center;
     font-weight: bold;
     z-index: 10;
@@ -522,6 +523,21 @@ hr {
   .tile.tile-⍁ .tile-inner {
     color: #000000;
     background: #faff4e; }
+  .tile.tile-⍂ .tile-inner {
+    color: #000000;
+    background: #faff4e; }
+  .tile.tile-⚠ .tile-inner {
+    color: #000000;
+    background: #f7ff00; }
+  .tile.tile-🕘 .tile-inner {
+    color: #000000;
+    background: #cce7e5; }
+  .tile.tile-∟ .tile-inner {
+    color: #000000;
+    background: #ff4200; }
+  .tile.tile-❌ .tile-inner {
+    color: #000000;
+    background: #8700ff; }
   .tile.tile-✈ .tile-inner {
     color: #000000;
     background: #ffffff; }
@@ -633,6 +649,9 @@ hr {
   .tile.tile-35 .tile-inner {
     color: #ffffff;
     background: #000000; }
+  .tile.tile-<36 .tile-inner {
+    color: #51008d;
+    background: #88fef9; }
   .tile.tile-36 .tile-inner {
     color: #52008e;
     background: #89fffa;
