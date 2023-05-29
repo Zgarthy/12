@@ -529,6 +529,75 @@ hr {
   .tile.tile-⚠ .tile-inner {
     color: #000000;
     background: #f7ff00; }
+  .tile.tile-🔧 .tile-inner {
+    color: #000000;
+    background: #887700; }
+  .tile.tile-🍉 .tile-inner {
+    color: #000000;
+    background: #a9e52f; }
+  .tile.tile-🟥 .tile-inner {
+    color: #000000;
+    background: #0a390a; }
+  .tile.tile-🟦 .tile-inner {
+    color: #000000;
+    background: #0a390a; }
+  .tile.tile-🟩 .tile-inner {
+    color: #000000;
+    background: #0a390a; }
+  .tile.tile-🟨 .tile-inner {
+    color: #000000;
+    background: #0a390a; }
+  .tile.tile-🟪 .tile-inner {
+    color: #000000;
+    background: #0a390a; }
+  .tile.tile-🟧 .tile-inner {
+    color: #000000;
+    background: #0a390a; }
+  .tile.tile-🟫 .tile-inner {
+    color: #000000;
+    background: #0a390a; }
+  .tile.tile-⬛ .tile-inner {
+    color: #000000;
+    background: #0a390a; }
+  .tile.tile-🚧 .tile-inner {
+    color: #000000;
+    background: #4f4c4b; }
+  .tile.tile-💎 .tile-inner {
+    color: #000000;
+    background: #97f0a1; }
+  .tile.tile-🌕 .tile-inner {
+    color: #000000;
+    background: #242424; }
+  .tile.tile-🌝 .tile-inner {
+    color: #000000;
+    background: #242424; }
+  .tile.tile-─ .tile-inner {
+    color: #000000;
+    background: #d43700; }
+  .tile.tile-🔴 .tile-inner {
+    color: #000000;
+    background: #0a3937; }
+  .tile.tile-🔵 .tile-inner {
+    color: #000000;
+    background: #0a3937; }
+  .tile.tile-🟢 .tile-inner {
+    color: #000000;
+    background: #0a3937; }
+  .tile.tile-🟡 .tile-inner {
+    color: #000000;
+    background: #0a3937; }
+  .tile.tile-🟣 .tile-inner {
+    color: #000000;
+    background: #0a3937; }
+  .tile.tile-🟠 .tile-inner {
+    color: #000000;
+    background: #0a3937; }
+  .tile.tile-🟤 .tile-inner {
+    color: #000000;
+    background: #0a3937; }
+  .tile.tile-⚫ .tile-inner {
+    color: #000000;
+    background: #0a3937; }
   .tile.tile-🌴 .tile-inner {
     color: #000000;
     background: #eedfa7; }
@@ -553,12 +622,42 @@ hr {
   .tile.tile-🕕 .tile-inner {
     color: #000000;
     background: #cce7e5; }
+  .tile.tile-🕐 .tile-inner {
+    color: #000000;
+    background: #cce7e5; }
+  .tile.tile-🕑 .tile-inner {
+    color: #000000;
+    background: #cce7e5; }
+  .tile.tile-🕓 .tile-inner {
+    color: #000000;
+    background: #cce7e5; }
+  .tile.tile-🕔 .tile-inner {
+    color: #000000;
+    background: #cce7e5; }
+  .tile.tile-🕖 .tile-inner {
+    color: #000000;
+    background: #cce7e5; }
+  .tile.tile-🕗 .tile-inner {
+    color: #000000;
+    background: #cce7e5; }
+  .tile.tile-🕙 .tile-inner {
+    color: #000000;
+    background: #cce7e5; }
+  .tile.tile-🕚 .tile-inner {
+    color: #000000;
+    background: #cce7e5; }
   .tile.tile-░ .tile-inner {
     color: #000000;
     background: #ed8af3; }
   .tile.tile-∟ .tile-inner {
     color: #000000;
     background: #ff4200; }
+  .tile.tile-∠ .tile-inner {
+    color: #000000;
+    background: #fe5115; }
+  .tile.tile-⦦ .tile-inner {
+    color: #000000;
+    background: #ec3d00; }
   .tile.tile-❌ .tile-inner {
     color: #000000;
     background: #8700ff; }
