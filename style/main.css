@@ -574,6 +574,9 @@ hr {
   .tile.tile-─ .tile-inner {
     color: #000000;
     background: #d43700; }
+  .tile.tile-〇 .tile-inner {
+    color: #000000;
+    background: #a52b00; }
   .tile.tile-🔴 .tile-inner {
     color: #000000;
     background: #0a3937; }
@@ -610,6 +613,36 @@ hr {
   .tile.tile-ℤ .tile-inner {
     color: #000000;
     background: #836c55; }
+  .tile.tile-♫ .tile-inner {
+    color: #000000;
+    background: #edc2fd; }
+  .tile.tile-🚦 .tile-inner {
+    color: #000000;
+    background: #838277; }
+  .tile.tile-🚥 .tile-inner {
+    color: #000000;
+    background: #838277; }
+  .tile.tile-🐛 .tile-inner {
+    color: #000000;
+    background: #d6f7c6; }
+  .tile.tile-🛑 .tile-inner {
+    color: #000000;
+    background: #b23723; }
+  .tile.tile-⏰ .tile-inner {
+    color: #000000;
+    background: #869997; }
+  .tile.tile-🏠 .tile-inner {
+    color: #000000;
+    background: #cd604d; }
+  .tile.tile-▅ .tile-inner {
+    color: #000000;
+    background: #0a0552; }
+  .tile.tile-😠 .tile-inner {
+    color: #000000;
+    background: #e4bf4a; }
+  .tile.tile-😡 .tile-inner {
+    color: #000000;
+    background: #e4bf4a; }
   .tile.tile-🕛 .tile-inner {
     color: #000000;
     background: #cce7e5; }
