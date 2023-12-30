@@ -598,9 +598,33 @@ hr {
   .tile.tile-🟤 .tile-inner {
     color: #000000;
     background: #0a3937; }
+  .tile.tile-🌠 .tile-inner {
+    color: #000000;
+    background: #030346; }
+  .tile.tile-☕ .tile-inner {
+    color: #000000;
+    background: #e5d9cc; }
+  .tile.tile-🧊 .tile-inner {
+    color: #000000;
+    background: #b5e0f0; }
+  .tile.tile-🌻 .tile-inner {
+    color: #000000;
+    background: #f0e8b5; }
+  .tile.tile-🍎 .tile-inner {
+    color: #000000;
+    background: #a50909; }
+  .tile.tile-🍏 .tile-inner {
+    color: #000000;
+    background: #73a509; }
+  .tile.tile-🎲 .tile-inner {
+    color: #000000;
+    background: #98e387; }
   .tile.tile-⚫ .tile-inner {
     color: #000000;
     background: #0a3937; }
+  .tile.tile-❔❕ .tile-inner {
+    color: #000000;
+    background: #f3ff00; }
   .tile.tile-🌴 .tile-inner {
     color: #000000;
     background: #eedfa7; }
