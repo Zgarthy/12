@@ -517,15 +517,24 @@ hr {
   .tile.tile-❔ .tile-inner {
     color: #000000;
     background: #00ff2a; }
+  .tile.tile-❔❔ .tile-inner {
+    color: #000000;
+    background: #5dff78; }
   .tile.tile-❕ .tile-inner {
     color: #000000;
     background: #ff0000; }
+  .tile.tile-❕❕ .tile-inner {
+    color: #000000;
+    background: #ff5d5d; }
   .tile.tile-⍁ .tile-inner {
     color: #000000;
     background: #faff4e; }
   .tile.tile-⍂ .tile-inner {
     color: #000000;
     background: #faff4e; }
+  .tile.tile-⌻ .tile-inner {
+    color: #ffffff;
+    background: #502f14; }
   .tile.tile-⚠ .tile-inner {
     color: #000000;
     background: #fff200; }
@@ -562,10 +571,16 @@ hr {
   .tile.tile-✔ .tile-inner {
     color: #4ef337;
     background: #a200ff; }
+  .tile.tile-✘ .tile-inner {
+    color: #4ef337;
+    background: #a200ff; }
   .tile.tile-📈 .tile-inner {
     color: #000000;
     background: #98a8e3; }
   .tile.tile-📉 .tile-inner {
+    color: #000000;
+    background: #98a8e3; }
+  .tile.tile-📊 .tile-inner {
     color: #000000;
     background: #98a8e3; }
   .tile.tile-💎 .tile-inner {
@@ -589,6 +604,10 @@ hr {
   .tile.tile-❌ .tile-inner {
     color: #000000;
     background: #8700ff; }
+  .tile.tile-❌❌ .tile-inner {
+    color: #000000;
+    background: #b25bff;
+    font-size: 25px; }
   .tile.tile-✈ .tile-inner {
     color: #000000;
     background: #ffffff; }
