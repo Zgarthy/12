@@ -583,6 +583,9 @@ hr {
   .tile.tile-⦦ .tile-inner {
     color: #000000;
     background: #ec3d00; }
+  .tile.tile-⦟ .tile-inner {
+    color: #000000;
+    background: #ff6b37; }
   .tile.tile-❌ .tile-inner {
     color: #000000;
     background: #8700ff; }
