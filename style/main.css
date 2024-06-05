@@ -520,7 +520,8 @@ hr {
     background: #00ff2a; }
   .tile.tile-❔❔ .tile-inner {
     color: #000000;
-    background: #4bff69; }
+    background: #4bff69;
+    font-size: 28px; }
   .tile.tile-❕ .tile-inner {
     color: #000000;
     background: #ff0000; }
