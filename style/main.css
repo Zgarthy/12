@@ -723,6 +723,10 @@ hr {
   .tile.tile-82 .tile-inner {
     color: #f1f7f9;
     background: #a98a74; }
+  .tile.tile-8282 .tile-inner {
+    color: #f1f7f9;
+    background: #d5b6a0;
+    font-size: 22px; }
   .tile.tile-super .tile-inner {
     color: #0309d1;
     background: #d1ab03;
